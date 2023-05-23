@@ -7,6 +7,7 @@ int main(void) {
 	
 	swap(&a, &b);
 	printf("(swapped) a=%d, b=%d\n", a, b);
-	
+	printf("(mult) a * b = %d * %d = %d\n", a,b,mult(a,b));
+	printf("(div) a / b = %d / %d = %d\n", a,b,div(a,b));
 	return 0;
 }
